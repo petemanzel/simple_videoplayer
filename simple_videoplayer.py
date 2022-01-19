@@ -128,7 +128,7 @@ class simple_videoplayer(object):
                 # Start a new video player process, capture STDOUT to keep the
                 # screen clear. Set a session ID (os.setsid) to allow us to kill
                 # the whole video player process tree.
-                cmd = ['omxplayer', '-b', '-o', self.audio]
+                cmd = ['cvlc', self.audio]
                 if self.loop:
                     cmd += ['--loop']
                 if self.no_osd:
