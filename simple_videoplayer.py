@@ -1,8 +1,11 @@
 #!/usr/bin/python
 
-# Raspberry Pi GPIO-controlled video Player
-# Copyright (c) 2021 Pietro Manzella
+# Raspberry Pi GPIO-controlled video looper
+# Copyright (c) 2019 Alex Lubbock
 # License MIT
+
+# modified for VLC-Player
+# 2021 Pietro Manzella
 
 import RPi.GPIO as GPIO
 import os
